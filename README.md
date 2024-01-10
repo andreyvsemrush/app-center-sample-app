@@ -53,7 +53,6 @@ The default backend port is `8080`, defined in [config.py](./config.py).
 1. Ask the App Center Team to change your test app iframe URL in Semrush to `http://localhost:8080`.
 1. Open your application page in Semrush and see this app running in the iframe.
 
-
 # Development
 
 ## Edit the frontend
