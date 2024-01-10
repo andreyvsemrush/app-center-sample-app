@@ -1,4 +1,4 @@
-import { type SM } from "@app-center-js-sdk/app-center-js-sdk";
+import { type SM } from "@semcore/app-center-js-sdk";
 
 declare global {
   interface Window {

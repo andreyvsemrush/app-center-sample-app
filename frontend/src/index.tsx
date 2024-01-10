@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { decodeJwt } from "jose";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { initAppCenterSDK } from "@app-center-js-sdk/app-center-js-sdk";
+import { initAppCenterSDK } from "@semcore/app-center-js-sdk";
 import { JWT } from "./pages/JWT";
 import { Notifications } from "./pages/Notifications";
 import { Reports } from "./pages/Reports";

@@ -1,7 +1,7 @@
 {
   "name": "developer-app-center-sample-app",
   "version": "1.0.0",
-  "description": "sample app to demonstrate Semrush App Center API's and capabilities",
+  "description": "Sample app to demonstrate Semrush App Center API's and capabilities",
   "main": "index.ts",
   "scripts": {
     "build": "NODE_ENV=production webpack",
@@ -9,7 +9,7 @@
     "lint": "eslint src --ext .ts --ext .tsx",
     "lint:fix": "eslint src --ext .ts --ext .tsx --fix"
   },
-  "author": "Semrush (Mango Team)",
+  "author": "Semrush",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "18.2.27",
@@ -33,7 +33,7 @@
     "webpack-cli": "5.1.4"
   },
   "dependencies": {
-    "@app-center-js-sdk/app-center-js-sdk": "0.0.37",
+    "@semcore/app-center-js-sdk": "0.0.1",
     "@semcore/ui": "15.26.0",
     "jose": "4.15.2",
     "prism-react-renderer": "^2.2.0",
