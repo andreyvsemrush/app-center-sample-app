@@ -5,16 +5,15 @@ import json
 import logging
 import uuid
 from base64 import b64encode
+from datetime import datetime
 from functools import wraps
 from typing import Callable
-from datetime import datetime
 
-from aiohttp import ClientSession
 import jwt
+from aiohttp import ClientSession
 from aiohttp import web
 
 import config
-
 
 logger = logging.getLogger(__name__)
 
