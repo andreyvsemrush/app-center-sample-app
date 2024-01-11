@@ -6,6 +6,7 @@ You can set values as environment variables.
 
 from envparse import env
 
+
 # Your app id
 SEMRUSH_APP_ID = env.str(
     "SEMRUSH_APP_ID", default="00000000-0000-0000-0000-000000000000"
@@ -31,5 +32,6 @@ S2S_NOTIFICATION_BASE_URL = env.str(
     "S2S_NOTIFICATION_BASE_URL",
     default="https://api.semrush.com/apis/v4/hermes/v0",
 )
+
 # Allowed iframe url, used in Content-Security-Policy header, you probably shouldn't change it
 CSP_FRAME_ANCESTOR = env.str("CSP_FRAME_ANCESTOR", default="https://*.semrush.com")
